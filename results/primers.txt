@@ -1,0 +1,51 @@
+# KRAS G12D Allele-Specific PCR — Primer Set
+# Author : Simbisai Chinhema
+# License: CC-BY-4.0
+# Method : Allele-Specific PCR (AS-PCR)
+#
+# All thermodynamic values (Tm, GC%) are in-silico estimates and MUST be
+# re-validated in Primer3 and NCBI BLAST before any experimental use.
+# Reference sequence : data/kras_sequence.fasta  (NM_004985, KRAS Exon 2, WT)
+# Target region      : data/kras_target_region.txt
+
+===========================================================================
+1) Mutant-specific forward primer  (KRAS_G12D_Forward)
+===========================================================================
+Sequence : 5'- ACTTGTGGTAGTTGGAGCTGA -3'
+Length   : 21 bp
+GC%      : 47.6%
+Tm       : 58.2 °C  (Primer3-derived)
+Notes    : The 3' terminal A matches the G12D mutation (GGT > GAT).
+           Perfect match at the 3' end allows polymerase extension from
+           the mutant template; the A:G mismatch blocks extension from
+           wild-type DNA, giving allele-specific amplification.
+
+===========================================================================
+2) Wild-type-specific forward primer  (KRAS_WT_Forward)
+===========================================================================
+Sequence : 5'- ACTTGTGGTAGTTGGAGCTGG -3'
+Length   : 21 bp
+GC%      : 52.4%
+Tm       : ~59.5 °C  (estimated)
+Notes    : Identical body to the mutant primer, but the 3' terminal G
+           matches the wild-type codon 12 (GGT). Used as the allele-
+           specificity control in the two-reaction AS-PCR scheme.
+
+===========================================================================
+3) Common reverse primer  (KRAS_Common_Reverse)
+===========================================================================
+Sequence : 5'- TGTATCGTCAAGGCACTCTTGC -3'
+Length   : 22 bp
+GC%      : 50.0%
+Tm       : ~58.5 °C  (estimated)
+Notes    : Binds downstream of codon 12 on the opposite strand and is
+           shared by both the mutant and wild-type reactions. Finalise
+           the exact binding site / amplicon length for your setup and
+           validate with BLAST.
+
+===========================================================================
+Expected behaviour
+===========================================================================
+Mutant reaction    : amplification only when the G12D allele is present.
+Wild-type reaction : amplification only when wild-type KRAS is present.
+Common reaction    : confirms DNA quality and PCR functionality.

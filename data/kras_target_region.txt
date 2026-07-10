@@ -1,0 +1,6 @@
+# KRAS Exon 2 target region (wild-type) around codon 12 (G12D site)
+# Source: data/kras_sequence.fasta (NM_004985, KRAS Exon 2, wild-type)
+# The mutant (G12D) differs by a single transition G > A at the second
+# position of codon 12 (GGT > GAT). The allele-specific forward primer
+# anchors on the base marked by the mutation.
+ATATAAACTTGTGGTAGTTGGAGCTGGTGGCGTAGGCAAGAGTGCCTTGACGATACAGCTA

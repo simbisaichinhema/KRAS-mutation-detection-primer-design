@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+authors:
+  - family-names: "Chinhema"
+    given-names: "Simbisai"
+title: "Allele-Specific Primer Design for KRAS G12D Mutation Detection"
+date-released: 2026-07-09
+license: CC-BY-4.0
+keywords:
+  - KRAS
+  - G12D
+  - allele-specific PCR
+  - primer design
+  - molecular diagnostics
+  - exon 2
