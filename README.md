@@ -6,7 +6,7 @@
 
 ---
 
-## 🧬 Overview
+##  Overview
 
 This project designs a mutation-specific primer for detecting oncogenic
 variants of the **KRAS** gene using **allele-specific PCR (AS-PCR)** principles.
@@ -17,13 +17,13 @@ mutations involve a single nucleotide change, which makes precise detection
 challenging. By placing the mutation at the 3′ end of a primer, an AS-PCR assay
 can discriminate mutant from wild-type DNA in a simple two-reaction format.
 
-## 🎯 Objective
+## Objective
 
 To design a forward primer that selectively amplifies the mutant KRAS sequence
 by anchoring the mutation at the 3′ end of the primer, enabling discrimination
 between mutant and wild-type DNA.
 
-## ⚙️ Experimental Design
+## Experimental Design
 
 The assay uses a **two-reaction system**:
 
@@ -34,7 +34,7 @@ The assay uses a **two-reaction system**:
    - Uses a general primer targeting KRAS.
    - Confirms DNA quality and PCR functionality.
 
-## 🛠️ Methodology
+##  Methodology
 
 1. **Sequence retrieval** — Targeted extraction of KRAS Exon 2 from NCBI
    RefSeq (NM_004985). The wild-type reference is stored in
@@ -59,7 +59,7 @@ The designed primer set is documented in
 > All Tm/GC% values are in-silico estimates and must be re-validated in
 > Primer3 and BLAST before experimental use.
 
-## 📂 Repository Structure
+##  Repository Structure
 
 ```
 kras-mutation-primer-design/
@@ -76,7 +76,7 @@ kras-mutation-primer-design/
 └── presentation/                  # Slides / figures (to be added)
 ```
 
-## 💻 Usage / Reproduction
+##  Usage / Reproduction
 
 This is a documentation and reference-data project — there is no executable
 code to install or run. To reproduce or extend the work:
@@ -98,7 +98,7 @@ code to install or run. To reproduce or extend the work:
 4. **Follow the design rationale** in
    [`notebook/design_notes.md`](notebook/design_notes.md).
 
-## ✅ Expected Results
+##  Expected Results
 
 - **Specificity** — Successful amplification produces a distinct band on a gel
   (or a Ct value in qPCR) for mutant templates, with no amplification (or a
@@ -106,7 +106,7 @@ code to install or run. To reproduce or extend the work:
 - **Sensitivity** — The optimised primer set should detect the G12D mutation at
   a concentration as low as 1% in a wild-type background.
 
-## 🔍 Validation
+##  Validation
 
 - **In-silico specificity:** NCBI BLAST against the human genome.
 - **Thermodynamic checks:** Tm, GC%, 3′ stability, and absence of
@@ -114,7 +114,7 @@ code to install or run. To reproduce or extend the work:
 - **Wet-lab confirmation:** gel electrophoresis or qPCR on characterised
   mutant and wild-type controls.
 
-## 🚀 Future Improvements
+## Future Improvements
 
 - **Multiplexing** — Combine multiple allele-specific primers in a single
   reaction to detect several KRAS mutations (G12V, G12C, G13D) simultaneously.
@@ -123,7 +123,7 @@ code to install or run. To reproduce or extend the work:
 - **Digital PCR (dPCR)** — Transition the validated primers to a dPCR platform
   for absolute quantification of mutant load.
 
-## 📄 Citation
+##  Citation
 
 If you use this work, please cite it. A machine-readable citation is provided
 in [`CITATION.cff`](CITATION.cff):
@@ -131,7 +131,7 @@ in [`CITATION.cff`](CITATION.cff):
 > Chinhema, S. (2026). *Allele-Specific Primer Design for KRAS G12D Mutation
 > Detection*. CC-BY-4.0.
 
-## 📜 License
+##  License
 
 This work is licensed under the
 [Creative Commons Attribution 4.0 International License (CC-BY-4.0)](LICENSE).
@@ -139,13 +139,13 @@ You are free to share and adapt it for any purpose, including commercially,
 provided appropriate credit is given. See the [`LICENSE`](LICENSE) file for the
 full terms.
 
-## 🤝 Contributing
+## Contributing
 
 Contributions, corrections, and additional validated primers are welcome.
 Please open an issue or pull request describing the change. For substantial
 changes, open an issue first to discuss the approach.
 
-## ⚠️ Disclaimer
+##  Disclaimer
 
 This project was developed for **academic and educational purposes**. The
 primers and protocols are provided as-is, without warranty, and are **not**
